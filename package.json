@@ -16,12 +16,11 @@
   "bugs": {
     "url": "https://github.com/damianesteban/test-repo/issues"
   },
-   "husky": {
-        "hooks": {
-            "commit-msg": "jira-smart-commit SPAN",
-            "pre-commit": "lint-staged"
-        }
-    },
+  "husky": {
+    "hooks": {
+      "commit-msg": "jira-smart-commit SPAN"
+    }
+  },
   "homepage": "https://github.com/damianesteban/test-repo#readme",
   "devDependencies": {
     "husky": "^4.0.6"
