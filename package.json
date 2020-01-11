@@ -18,7 +18,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "jira-smart-commit SPAN"
+      "commit-msg": "TAG_MATCHER=\"^[^/]+/(SPAN-[0-9]+)\" TAG_MATCH_INDEX=1 jira-smart-commit"
     }
   },
   "homepage": "https://github.com/damianesteban/test-repo#readme",
