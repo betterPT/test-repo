@@ -1,0 +1,29 @@
+{
+  "name": "changelog-test",
+  "version": "1.0.0",
+  "description": "Added a title",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianesteban/test-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damianesteban/test-repo/issues"
+  },
+   "husky": {
+        "hooks": {
+            "commit-msg": "jira-smart-commit SPAN",
+            "pre-commit": "lint-staged"
+        }
+    },
+  "homepage": "https://github.com/damianesteban/test-repo#readme",
+  "devDependencies": {
+    "husky": "^4.0.6"
+  }
+}
